@@ -85,20 +85,7 @@
   <component name="RebelAgentSelection">
     <selection>jr</selection>
   </component>
-  <component name="RunManager" selected="Application.BM28_二叉树的最大深度">
-    <configuration name="BM12_单链表的排序" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="牛客.p1_链表.BM12_单链表的排序" />
-      <module name="leetcode" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="牛客.p1_链表.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.BM30_二叉搜索树与双向链表">
     <configuration name="BM26_二叉树的层序遍历" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="牛客.p3_二叉树.BM26_二叉树的层序遍历" />
       <module name="leetcode" />
@@ -138,12 +125,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BM5_合并k个已排序的链表" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="牛客.p1_链表.BM5_合并k个已排序的链表" />
+    <configuration name="BM29_二叉树中和为某一值的路径" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="牛客.p3_二叉树.BM29_二叉树中和为某一值的路径" />
       <module name="leetcode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="牛客.p1_链表.*" />
+          <option name="PATTERN" value="牛客.p3_二叉树.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BM30_二叉搜索树与双向链表" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="牛客.p3_二叉树.BM30_二叉搜索树与双向链表" />
+      <module name="leetcode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="牛客.p3_二叉树.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -152,19 +152,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.BM12_单链表的排序" />
-      <item itemvalue="Application.BM5_合并k个已排序的链表" />
       <item itemvalue="Application.BM26_二叉树的层序遍历" />
       <item itemvalue="Application.BM27_按之字形顺序打印二叉树" />
       <item itemvalue="Application.BM28_二叉树的最大深度" />
+      <item itemvalue="Application.BM29_二叉树中和为某一值的路径" />
+      <item itemvalue="Application.BM30_二叉搜索树与双向链表" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.BM30_二叉搜索树与双向链表" />
+        <item itemvalue="Application.BM29_二叉树中和为某一值的路径" />
         <item itemvalue="Application.BM28_二叉树的最大深度" />
         <item itemvalue="Application.BM27_按之字形顺序打印二叉树" />
         <item itemvalue="Application.BM26_二叉树的层序遍历" />
-        <item itemvalue="Application.BM12_单链表的排序" />
-        <item itemvalue="Application.BM5_合并k个已排序的链表" />
       </list>
     </recent_temporary>
   </component>
@@ -198,6 +198,7 @@
       <workItem from="1678806495331" duration="129000" />
       <workItem from="1678892795476" duration="129000" />
       <workItem from="1678892988702" duration="4017000" />
+      <workItem from="1679225272468" duration="6749000" />
     </task>
     <servers />
   </component>
@@ -214,56 +215,57 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
     <state x="95" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1678894442814">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
     <state x="95" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.689@0.0.1280.689" timestamp="1678894442814" />
-    <state width="416" height="438" key="DebuggerActiveHint" timestamp="1677601926452">
+    <state width="447" height="438" key="DebuggerActiveHint" timestamp="1679234734584">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state width="416" height="438" key="DebuggerActiveHint/0.0.1280.689@0.0.1280.689" timestamp="1677601926452" />
-    <state width="1202" height="162" key="GridCell.Tab.0.bottom" timestamp="1678897775149">
+    <state width="447" height="438" key="DebuggerActiveHint/0.0.1280.689@0.0.1280.689" timestamp="1679234734584" />
+    <state width="1202" height="277" key="GridCell.Tab.0.bottom" timestamp="1679235493287">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state width="1202" height="162" key="GridCell.Tab.0.bottom/0.0.1280.689@0.0.1280.689" timestamp="1678897775149" />
-    <state width="1202" height="162" key="GridCell.Tab.0.center" timestamp="1678897775149">
+    <state width="1202" height="277" key="GridCell.Tab.0.bottom/0.0.1280.689@0.0.1280.689" timestamp="1679235493287" />
+    <state width="1202" height="277" key="GridCell.Tab.0.center" timestamp="1679235493287">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state width="1202" height="162" key="GridCell.Tab.0.center/0.0.1280.689@0.0.1280.689" timestamp="1678897775149" />
-    <state width="1202" height="162" key="GridCell.Tab.0.left" timestamp="1678897775149">
+    <state width="1202" height="277" key="GridCell.Tab.0.center/0.0.1280.689@0.0.1280.689" timestamp="1679235493287" />
+    <state width="1202" height="277" key="GridCell.Tab.0.left" timestamp="1679235493287">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state width="1202" height="162" key="GridCell.Tab.0.left/0.0.1280.689@0.0.1280.689" timestamp="1678897775149" />
-    <state width="1202" height="162" key="GridCell.Tab.0.right" timestamp="1678897775149">
+    <state width="1202" height="277" key="GridCell.Tab.0.left/0.0.1280.689@0.0.1280.689" timestamp="1679235493287" />
+    <state width="1202" height="277" key="GridCell.Tab.0.right" timestamp="1679235493287">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state width="1202" height="162" key="GridCell.Tab.0.right/0.0.1280.689@0.0.1280.689" timestamp="1678897775149" />
-    <state width="1202" height="158" key="GridCell.Tab.1.bottom" timestamp="1678896787650">
+    <state width="1202" height="277" key="GridCell.Tab.0.right/0.0.1280.689@0.0.1280.689" timestamp="1679235493287" />
+    <state width="1202" height="277" key="GridCell.Tab.1.bottom" timestamp="1679235493151">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state width="1202" height="158" key="GridCell.Tab.1.bottom/0.0.1280.689@0.0.1280.689" timestamp="1678896787650" />
-    <state width="1202" height="158" key="GridCell.Tab.1.center" timestamp="1678896787650">
+    <state width="1202" height="277" key="GridCell.Tab.1.bottom/0.0.1280.689@0.0.1280.689" timestamp="1679235493151" />
+    <state width="1202" height="277" key="GridCell.Tab.1.center" timestamp="1679235493151">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state width="1202" height="158" key="GridCell.Tab.1.center/0.0.1280.689@0.0.1280.689" timestamp="1678896787650" />
-    <state width="1202" height="158" key="GridCell.Tab.1.left" timestamp="1678896787650">
+    <state width="1202" height="277" key="GridCell.Tab.1.center/0.0.1280.689@0.0.1280.689" timestamp="1679235493151" />
+    <state width="1202" height="277" key="GridCell.Tab.1.left" timestamp="1679235493151">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state width="1202" height="158" key="GridCell.Tab.1.left/0.0.1280.689@0.0.1280.689" timestamp="1678896787650" />
-    <state width="1202" height="158" key="GridCell.Tab.1.right" timestamp="1678896787650">
+    <state width="1202" height="277" key="GridCell.Tab.1.left/0.0.1280.689@0.0.1280.689" timestamp="1679235493151" />
+    <state width="1202" height="277" key="GridCell.Tab.1.right" timestamp="1679235493151">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state width="1202" height="158" key="GridCell.Tab.1.right/0.0.1280.689@0.0.1280.689" timestamp="1678896787650" />
+    <state width="1202" height="277" key="GridCell.Tab.1.right/0.0.1280.689@0.0.1280.689" timestamp="1679235493151" />
     <state x="142" y="0" key="SettingsEditor" timestamp="1678894499930">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
     <state x="142" y="0" key="SettingsEditor/0.0.1280.689@0.0.1280.689" timestamp="1678894499930" />
-    <state x="297" y="155" key="run.anything.popup" timestamp="1677600746493">
+    <state x="297" y="155" key="run.anything.popup" timestamp="1679226363168">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state x="297" y="155" key="run.anything.popup/0.0.1280.689@0.0.1280.689" timestamp="1677600746493" />
+    <state x="297" y="155" key="run.anything.popup/0.0.1280.689@0.0.1280.689" timestamp="1679226363168" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -297,6 +299,7 @@
     </breakpoint-manager>
     <pin-to-top-manager>
       <pinned-members>
+        <PinnedItemInfo typeName="牛客.p3_二叉树.TreeNode" fieldName="left" />
         <PinnedItemInfo />
       </pinned-members>
     </pin-to-top-manager>
