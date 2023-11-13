@@ -49,7 +49,8 @@ public class BM29_二叉树中和为某一值的路径 {
             if(sum == val) flag = true;
             return;
         }
-        // 左节点不为空或者 左节点为空，右节点也是空 左节点才有遍历下去的必要
+
+        // 左节点不为空或者 “左节点为空，右节点也是空,即节点是叶子节点”  左节点才有遍历下去的必要
         if(root.left != null || (root.left == null && root.right == null)){
             calRootToLeftLength(root.left, sum, val + root.val);
         }

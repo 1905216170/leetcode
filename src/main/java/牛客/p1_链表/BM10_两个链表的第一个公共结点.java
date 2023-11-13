@@ -35,6 +35,7 @@ import java.util.HashSet;
  */
 public class BM10_两个链表的第一个公共结点 {
 
+//    1-2-3 0-3      0-3  1-2-3
     public static ListNode FindFirstCommonNode(ListNode pHead1, ListNode pHead2) {
         ListNode node1 = pHead1, node2 = pHead2;
 

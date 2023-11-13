@@ -10,11 +10,10 @@ import java.time.LocalDate;
 import java.time.LocalDateTime;
 import java.util.ArrayList;
 import java.util.List;
-import java.util.concurrent.CompletableFuture;
-import java.util.concurrent.ConcurrentHashMap;
-import java.util.concurrent.ExecutionException;
-import java.util.concurrent.TimeUnit;
+import java.util.concurrent.*;
 import java.util.concurrent.locks.LockSupport;
+import java.util.concurrent.locks.ReentrantLock;
+import java.util.concurrent.locks.ReentrantReadWriteLock;
 import java.util.function.BiConsumer;
 
 public class Test implements BeanFactoryPostProcessor, BeanDefinitionRegistryPostProcessor {
@@ -111,6 +110,8 @@ public class Test implements BeanFactoryPostProcessor, BeanDefinitionRegistryPos
     }
 
     public static void print(String data){
+
+//        new LinkedBlockingDeque<>(1).offer(1)
         System.out.println(LocalDateTime.now().toString() + "-" + Thread.currentThread().getName()  + "：" + data);
     }
 

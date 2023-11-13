@@ -19,27 +19,104 @@ package 牛客.p1_链表;
  */
 public class BM9_删除链表的倒数第n个节点 {
 
+    //    =============================方式一
+//    public static ListNode removeNthFromEnd(ListNode head, int n){
+//        ListNode fastNode, slowNode;
+//        fastNode = slowNode = head;
+//        for (int i = 0; i < n; i++) {
+//            if(fastNode != null){
+//                fastNode = fastNode.next;
+//            }else {
+//                return null;
+//            }
+//        }
+//        // 删除倒数最后一个节点，即第一个节点
+//        if(fastNode == null) return head.next;
+//        // 不是删除首节点，那么找到删除节点的前一个节点
+//        fastNode = fastNode.next;
+//        while (fastNode != null){
+//            fastNode = fastNode.next;
+//            slowNode = slowNode.next;
+//        }
+//        slowNode.next = slowNode.next.next;
+//        return head;
+//    }
+
+
+//    =============================方式二
+    /*public static ListNode removeNthFromEnd (ListNode head, int n) {
+        ListNode fastNode, slowNode = null;
+        // 添加一个空头节点，避免特殊情况（删除倒数最后一个节点，即第一个节点）
+        ListNode realHead = new ListNode(0);
+        realHead.next = head;
+        fastNode = slowNode = realHead;
+        // 快指针移动N+1次，被删除的节点才开始后移
+        for (int i = 0; i < n + 1; i++) {
+            if(fastNode != null){
+                fastNode = fastNode.next;
+            }else {
+                return null;
+            }
+        }
+        // 找到被删除的前一个节点
+        while (fastNode != null){
+            fastNode = fastNode.next;
+            slowNode = slowNode.next;
+        }
+        // 删除节点
+        slowNode.next = slowNode.next.next;
+        // 跳过我们定义的空头节点
+        return realHead.next;
+        // 1-2-3-4-5
+    }*/
+
 
     public static ListNode removeNthFromEnd (ListNode head, int n) {
-        // write code here
         ListNode fastNode, slowNode = null ;
         fastNode = head;
         int moveCount = 1;
-        // 找到 倒数 第n+1 个节点
         while (fastNode != null){
-            if(moveCount-1 == n) slowNode = head;
+            // 快指针移动n+1,为了让slowNode是被删除节点的上一个节点
             if(moveCount <= n+1){
+                // 能够移动到n+1此，说明被删除节点肯定不是首结点
+                if(moveCount == n+1){
+                    slowNode = head;
+                }
                 fastNode = fastNode.next;
                 moveCount++;
                 continue;
             }
-            slowNode = slowNode.next;
             fastNode = fastNode.next;
+            slowNode = slowNode.next;
         }
-        if(slowNode == null)return head.next;
+        // 被删除节点是首结点
+        if(slowNode == null) return head.next;
+        // 删除首节点
         slowNode.next = slowNode.next.next;
         return head;
     }
+
+    //    =============================方式三
+//    public static ListNode removeNthFromEnd (ListNode head, int n) {
+//        // write code here
+//        ListNode fastNode, slowNode = null ;
+//        fastNode = head;
+//        int moveCount = 1;
+//        // 找到 倒数 第n+1 个节点
+//        while (fastNode != null){
+//            if(moveCount-1 == n) slowNode = head;
+//            if(moveCount <= n+1){
+//                fastNode = fastNode.next;
+//                moveCount++;
+//                continue;
+//            }
+//            slowNode = slowNode.next;
+//            fastNode = fastNode.next;
+//        }
+//        if(slowNode == null)return head.next;
+//        slowNode.next = slowNode.next.next;
+//        return head;
+//    }
 
     public static void main(String[] args) {
         ListNode n7 = new ListNode(7);

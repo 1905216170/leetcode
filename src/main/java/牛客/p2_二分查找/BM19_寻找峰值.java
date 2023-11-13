@@ -51,8 +51,9 @@ public class BM19_寻找峰值 {
         return nums.length - 1;
     }
 
+
     public static void main(String[] args) {
-        int[] nums = new int[]{2,4,1,2,7,8,4};
+        int[] nums = new int[]{10,5,5,5,5,5};
         System.out.println(findPeakElement(nums));
     }
 }

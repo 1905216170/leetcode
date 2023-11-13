@@ -36,9 +36,11 @@ public class BM16_删除有序链表中重复的元素_ll {
         }
         pHead = node = new ListNode(0);
         while (head != null){
+            // 需要提前记录下一个节点，避免下一个记录被覆盖
             nextNode = head.next;
             if(!map.get(head.val)){
                 node = node.next = head;
+                // 下一个置空，
                 node.next = null;
             }
             head = nextNode;

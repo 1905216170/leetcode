@@ -25,19 +25,23 @@ package 牛客.p1_链表;
  */
 public class BM8_链表中倒数最后k个结点 {
     public static ListNode findKthToTail (ListNode pHead, int k) {
-        // write code here
+//        方式2：
         ListNode fastNode = pHead, slowNode = pHead;
-        int fastStepCount = 1;
-        while (fastNode != null){
-            if(fastStepCount <= k){
+
+        // 快指针先走k步
+        for (int i = 0; i < k; i++) {
+            if(fastNode != null){
                 fastNode = fastNode.next;
-                fastStepCount ++;
-                continue;
+            }else {
+                // 链表程度不够K
+                return null;
             }
+        }
+        while (fastNode != null){
             fastNode = fastNode.next;
             slowNode = slowNode.next;
         }
-        return fastStepCount <= k ? null : slowNode;
+        return slowNode;
     }
 
     public static void main(String[] args) {
@@ -48,7 +52,7 @@ public class BM8_链表中倒数最后k个结点 {
         ListNode n3 = new ListNode(3, n4);
         ListNode n2 = new ListNode(2, n3);
         ListNode n1 = new ListNode(1, n2);
-        ListNode node = findKthToTail(n1, 4);
+        ListNode node = findKthToTail(n1, 1);
         System.out.println(node == null ? null : node.val);
     }
 }

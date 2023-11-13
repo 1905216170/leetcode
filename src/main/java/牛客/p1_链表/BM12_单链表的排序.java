@@ -11,12 +11,21 @@ public class BM12_单链表的排序 {
 
     public ListNode sortInList (ListNode head) {
         // write code here
-        ArrayList<Integer> list = new ArrayList<Integer>();
-        while (head != null){
-            list.add(head.val);
-            head = head.next;
+        List<Integer> list = new ArrayList<>();
+        ListNode node = head;
+        while (node != null){
+            list.add(node.val);
+            node = node.next;
         }
-        return null;
+        list.sort((num1, num2)->{
+            return num1 - num2;
+        });
+        node= head;
+        for (Integer num : list) {
+            node.val = num;
+            node = node.next;
+        }
+        return head;
     }
 
     public static void main(String[] args) {
@@ -27,5 +36,11 @@ public class BM12_单链表的排序 {
         ListNode n3 = new ListNode(3, n4);
         ListNode n2 = new ListNode(2, n3);
         ListNode n1 = new ListNode(1, n2);
+        ListNode listNode = new BM12_单链表的排序().sortInList(n1);
+        while (listNode != null){
+            System.out.println(listNode.val);
+            listNode = listNode.next;
+        }
+
     }
 }
