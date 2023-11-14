@@ -2,26 +2,44 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5abe5217-2e04-4f57-b7fb-6c314570ed14" name="Default Changelist" comment="xx">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/牛客/p1_链表/BM10_两个链表的第一个公共结点.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/牛客/p1_链表/BM10_两个链表的第一个公共结点.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/牛客/p1_链表/BM12_单链表的排序.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/牛客/p1_链表/BM12_单链表的排序.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/牛客/p1_链表/BM16_删除有序链表中重复的元素_ll.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/牛客/p1_链表/BM16_删除有序链表中重复的元素_ll.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/牛客/p1_链表/BM8_链表中倒数最后k个结点.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/牛客/p1_链表/BM8_链表中倒数最后k个结点.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/牛客/p1_链表/BM9_删除链表的倒数第n个节点.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/牛客/p1_链表/BM9_删除链表的倒数第n个节点.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/牛客/p2_二分查找/BM19_寻找峰值.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/牛客/p2_二分查找/BM19_寻找峰值.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/牛客/p2_二分查找/BM21_旋转数组的最小数字.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/牛客/p2_二分查找/BM21_旋转数组的最小数字.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/牛客/p3_二叉树/BM29_二叉树中和为某一值的路径.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/牛客/p3_二叉树/BM29_二叉树中和为某一值的路径.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Test.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/牛客/p1_链表/BM10_两个链表的第一个公共结点.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/牛客/p1_链表/BM10_两个链表的第一个公共结点.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/牛客/p1_链表/BM12_单链表的排序.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/牛客/p1_链表/BM12_单链表的排序.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/牛客/p1_链表/BM16_删除有序链表中重复的元素_ll.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/牛客/p1_链表/BM16_删除有序链表中重复的元素_ll.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/牛客/p1_链表/BM8_链表中倒数最后k个结点.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/牛客/p1_链表/BM8_链表中倒数最后k个结点.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/牛客/p1_链表/BM9_删除链表的倒数第n个节点.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/牛客/p1_链表/BM9_删除链表的倒数第n个节点.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/牛客/p2_二分查找/BM19_寻找峰值.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/牛客/p2_二分查找/BM19_寻找峰值.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/牛客/p2_二分查找/BM21_旋转数组的最小数字.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/牛客/p2_二分查找/BM21_旋转数组的最小数字.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/牛客/p3_二叉树/BM29_二叉树中和为某一值的路径.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/牛客/p3_二叉树/BM29_二叉树中和为某一值的路径.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/牛客/p3_二叉树/BM34_判断是不是二叉搜索树.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/牛客/p3_二叉树/BM34_判断是不是二叉搜索树.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Test.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/sort/HeapSortApp.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/sort/MergeSortApp.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/sort/QuickSortApp.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/牛客/p1_链表/BM10_两个链表的第一个公共结点.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/牛客/p1_链表/BM11_链表相加.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/牛客/p1_链表/BM12_单链表的排序.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/牛客/p1_链表/BM13_判断一个链表是否为回文结构.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/牛客/p1_链表/BM14_链表的奇偶重排.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/牛客/p1_链表/BM15_删除有序链表中重复的元素.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/牛客/p1_链表/BM16_删除有序链表中重复的元素_ll.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/牛客/p1_链表/BM1_反转链表.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/牛客/p1_链表/BM2_链表内指定区间反转.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/牛客/p1_链表/BM3_链表中的节点每k个一组翻转.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/牛客/p1_链表/BM4_合并两个排序的链表.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/牛客/p1_链表/BM5_合并k个已排序的链表.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/牛客/p1_链表/BM6_判断链表中是否有环.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/牛客/p1_链表/BM7_链表中环的入口结点.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/牛客/p1_链表/BM8_链表中倒数最后k个结点.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/牛客/p1_链表/BM9_删除链表的倒数第n个节点.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/牛客/p1_链表/ListNode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/牛客/p2_二分查找/BM17_二分查_I.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/牛客/p2_二分查找/BM18_二维数组中的查找.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/牛客/p2_二分查找/BM19_寻找峰值.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/牛客/p2_二分查找/BM20_数组中的逆序对.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/牛客/p2_二分查找/BM21_旋转数组的最小数字.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/牛客/p2_二分查找/BM22_比较版本号.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/牛客/p3_二叉树/BM23_二叉树的中序遍历.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/牛客/p3_二叉树/BM23_二叉树的前序遍历.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/牛客/p3_二叉树/BM23_二叉树的后序遍历.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/牛客/p3_二叉树/BM26_二叉树的层序遍历.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/牛客/p3_二叉树/BM27_按之字形顺序打印二叉树.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/牛客/p3_二叉树/BM28_二叉树的最大深度.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/牛客/p3_二叉树/BM29_二叉树中和为某一值的路径.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/牛客/p3_二叉树/BM30_二叉搜索树与双向链表.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/牛客/p3_二叉树/TreeNode.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -95,19 +113,6 @@
     </key>
   </component>
   <component name="RunManager" selected="Application.Test2">
-    <configuration name="BM16_删除有序链表中重复的元素_ll" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="牛客.p1_链表.BM16_删除有序链表中重复的元素_ll" />
-      <module name="leetcode" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="牛客.p1_链表.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="BM18_二维数组中的查找2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="牛客.p2_二分查找.BM18_二维数组中的查找2" />
       <module name="leetcode" />
@@ -147,6 +152,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="BM34_判断是不是二叉搜索树" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="牛客.p3_二叉树.BM34_判断是不是二叉搜索树" />
+      <module name="leetcode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="牛客.p3_二叉树.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Test2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="tmp.Test2" />
       <module name="leetcode" />
@@ -161,19 +179,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.BM16_删除有序链表中重复的元素_ll" />
       <item itemvalue="Application.BM18_二维数组中的查找2" />
       <item itemvalue="Application.BM19_寻找峰值" />
       <item itemvalue="Application.BM21_旋转数组的最小数字" />
       <item itemvalue="Application.Test2" />
+      <item itemvalue="Application.BM34_判断是不是二叉搜索树" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="Application.Test2" />
+        <item itemvalue="Application.BM34_判断是不是二叉搜索树" />
         <item itemvalue="Application.BM21_旋转数组的最小数字" />
         <item itemvalue="Application.BM19_寻找峰值" />
         <item itemvalue="Application.BM18_二维数组中的查找2" />
-        <item itemvalue="Application.BM16_删除有序链表中重复的元素_ll" />
       </list>
     </recent_temporary>
   </component>
@@ -222,6 +240,7 @@
       <workItem from="1699712187153" duration="878000" />
       <workItem from="1699754636480" duration="22366000" />
       <workItem from="1699883228385" duration="8095000" />
+      <workItem from="1699972175335" duration="4613000" />
     </task>
     <task id="LOCAL-00001" summary="xx">
       <created>1680065218659</created>
@@ -236,6 +255,17 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="2" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="xx" />
     <option name="LAST_COMMIT_MESSAGE" value="xx" />
@@ -249,38 +279,38 @@
       <screen x="0" y="0" width="1280" height="689" />
     </state>
     <state width="457" height="466" key="DebuggerActiveHint/0.0.1280.689@0.0.1280.689" timestamp="1699887386042" />
-    <state width="1202" height="166" key="GridCell.Tab.0.bottom" timestamp="1699888716492">
+    <state width="1202" height="166" key="GridCell.Tab.0.bottom" timestamp="1699978074805">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state width="1202" height="166" key="GridCell.Tab.0.bottom/0.0.1280.689@0.0.1280.689" timestamp="1699888716492" />
-    <state width="1202" height="166" key="GridCell.Tab.0.center" timestamp="1699888716492">
+    <state width="1202" height="166" key="GridCell.Tab.0.bottom/0.0.1280.689@0.0.1280.689" timestamp="1699978074805" />
+    <state width="1202" height="166" key="GridCell.Tab.0.center" timestamp="1699978074805">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state width="1202" height="166" key="GridCell.Tab.0.center/0.0.1280.689@0.0.1280.689" timestamp="1699888716492" />
-    <state width="1202" height="166" key="GridCell.Tab.0.left" timestamp="1699888716492">
+    <state width="1202" height="166" key="GridCell.Tab.0.center/0.0.1280.689@0.0.1280.689" timestamp="1699978074805" />
+    <state width="1202" height="166" key="GridCell.Tab.0.left" timestamp="1699978074804">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state width="1202" height="166" key="GridCell.Tab.0.left/0.0.1280.689@0.0.1280.689" timestamp="1699888716492" />
-    <state width="1202" height="166" key="GridCell.Tab.0.right" timestamp="1699888716492">
+    <state width="1202" height="166" key="GridCell.Tab.0.left/0.0.1280.689@0.0.1280.689" timestamp="1699978074804" />
+    <state width="1202" height="166" key="GridCell.Tab.0.right" timestamp="1699978074805">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state width="1202" height="166" key="GridCell.Tab.0.right/0.0.1280.689@0.0.1280.689" timestamp="1699888716492" />
-    <state width="1202" height="166" key="GridCell.Tab.1.bottom" timestamp="1699888716351">
+    <state width="1202" height="166" key="GridCell.Tab.0.right/0.0.1280.689@0.0.1280.689" timestamp="1699978074805" />
+    <state width="1202" height="166" key="GridCell.Tab.1.bottom" timestamp="1699978074948">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state width="1202" height="166" key="GridCell.Tab.1.bottom/0.0.1280.689@0.0.1280.689" timestamp="1699888716351" />
-    <state width="1202" height="166" key="GridCell.Tab.1.center" timestamp="1699888716350">
+    <state width="1202" height="166" key="GridCell.Tab.1.bottom/0.0.1280.689@0.0.1280.689" timestamp="1699978074948" />
+    <state width="1202" height="166" key="GridCell.Tab.1.center" timestamp="1699978074948">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state width="1202" height="166" key="GridCell.Tab.1.center/0.0.1280.689@0.0.1280.689" timestamp="1699888716350" />
-    <state width="1202" height="166" key="GridCell.Tab.1.left" timestamp="1699888716350">
+    <state width="1202" height="166" key="GridCell.Tab.1.center/0.0.1280.689@0.0.1280.689" timestamp="1699978074948" />
+    <state width="1202" height="166" key="GridCell.Tab.1.left" timestamp="1699978074948">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state width="1202" height="166" key="GridCell.Tab.1.left/0.0.1280.689@0.0.1280.689" timestamp="1699888716350" />
-    <state width="1202" height="166" key="GridCell.Tab.1.right" timestamp="1699888716350">
+    <state width="1202" height="166" key="GridCell.Tab.1.left/0.0.1280.689@0.0.1280.689" timestamp="1699978074948" />
+    <state width="1202" height="166" key="GridCell.Tab.1.right" timestamp="1699978074948">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state width="1202" height="166" key="GridCell.Tab.1.right/0.0.1280.689@0.0.1280.689" timestamp="1699888716350" />
+    <state width="1202" height="166" key="GridCell.Tab.1.right/0.0.1280.689@0.0.1280.689" timestamp="1699978074948" />
     <state width="792" height="687" key="com.intellij.byteCodeViewer.ShowByteCodeAction" timestamp="1698764070879">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
@@ -289,10 +319,14 @@
       <screen x="0" y="0" width="1280" height="689" />
     </state>
     <state x="44" y="11" key="new project wizard/0.0.1280.689@0.0.1280.689" timestamp="1697962062109" />
-    <state x="313" y="8" width="672" height="676" key="search.everywhere.popup" timestamp="1699756565821">
+    <state x="313" y="158" key="run.anything.popup" timestamp="1699972329505">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state x="313" y="8" width="672" height="676" key="search.everywhere.popup/0.0.1280.689@0.0.1280.689" timestamp="1699756565821" />
+    <state x="313" y="158" key="run.anything.popup/0.0.1280.689@0.0.1280.689" timestamp="1699972329505" />
+    <state x="313" y="8" width="672" height="676" key="search.everywhere.popup" timestamp="1699972726060">
+      <screen x="0" y="0" width="1280" height="689" />
+    </state>
+    <state x="313" y="8" width="672" height="676" key="search.everywhere.popup/0.0.1280.689@0.0.1280.689" timestamp="1699972726060" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -362,11 +396,21 @@
           <line>36</line>
           <option name="timeStamp" value="35" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <condition expression="treeNode.val == 10" language="JAVA" />
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <condition expression="root.val == 12" language="JAVA" />
           <url>file://$PROJECT_DIR$/src/main/java/tmp/Test2.java</url>
-          <line>34</line>
-          <option name="timeStamp" value="39" />
+          <line>35</line>
+          <option name="timeStamp" value="40" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/tmp/Test2.java</url>
+          <line>23</line>
+          <option name="timeStamp" value="41" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/tmp/Test2.java</url>
+          <line>27</line>
+          <option name="timeStamp" value="42" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

@@ -8,28 +8,15 @@ public class BM34_判断是不是二叉搜索树 {
 
     void doCheck(TreeNode node){
         if(node == null) return;
-        if(node.left != null){
-            if(node.val <= node.left.val){
-                isValidBST = false;
-                return;
-            }
-            doCheck(node.left);
-        }
+        doCheck(node.left);
+        if(!isValidBST) return;
 
         if(node.val <= smallVal){
             isValidBST = false;
             return;
         }
         smallVal = node.val;
-
-        if(!isValidBST) return;
-        if(node.right != null){
-            if(node.val >= node.right.val){
-                isValidBST = false;
-                return;
-            }
-            doCheck(node.right);
-        }
+        doCheck(node.right);
     }
 
     public boolean isValidBST (TreeNode root) {
