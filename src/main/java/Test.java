@@ -111,8 +111,9 @@ public class Test implements BeanFactoryPostProcessor, BeanDefinitionRegistryPos
 
     public static void print(String data){
 
+
 //        new LinkedBlockingDeque<>(1).offer(1)
-        System.out.println(LocalDateTime.now().toString() + "-" + Thread.currentThread().getName()  + "：" + data);
+//        System.out.println(LocalDateTime.now().toString() + "-" + Thread.currentThread().getName()  + "：" + data);
     }
 
     public static void sleep(long time){
